@@ -24,6 +24,7 @@ como maximo definido por él
 
 #include <stdio.h>
 #include <stdlib.h>
+
 int valor_aleatorio(int);
 int main()
 {
@@ -34,8 +35,9 @@ int main()
     printf("Aleatorio: %d " , valor_aleatorio(maximo));
     
 }
+
 int valor_aleatorio(int maximo){
     return rand()%maximo + 1;
-} (edited) 
+} 
 
 
